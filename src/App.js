@@ -9,9 +9,8 @@ import Login from "./Login";
 function App() {
   useEffect(() => {
     // Update the document title using the browser API
-    document.title = "Amazon-Clone || Web-App";
-  });
-
+    document.title = `Amazon-Clone || Web-App`;
+  }, []);
   return (
     <>
       <Router>
@@ -22,7 +21,7 @@ function App() {
           <Route exact path="/login">
             <Login />
           </Route>
-          <Route exact path="/">
+          <Route exact path="/Amazon-clone">
             <Header />
             <Home />
           </Route>

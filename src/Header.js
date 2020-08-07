@@ -27,13 +27,13 @@ const Header = () => {
             <span className="header-option-two">Sign In</span>
           </div>
         </Link>
-        <Link to="/" className="header-link">
+        <Link to="/Amazon-clone" className="header-link">
           <div className="header-option">
             <span className="header-option-one">Return</span>
             <span className="header-option-two">& Order</span>
           </div>
         </Link>
-        <Link to="/" className="header-link">
+        <Link to="/Amazon-clone" className="header-link">
           <div className="header-option">
             <span className="header-option-one">try</span>
             <span className="header-option-two">Prime</span>
